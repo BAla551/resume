@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Projects */
+.project {
+    background: #f5f5f5;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin: 0;
+    color: #0073e6;
+}
+
+/* Contact */
+.social-links {
+    margin-top: 10px;
+}
+
+.social {
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.social:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0073e6;
+    color: white;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode header {
+    background: #1f1f1f;
+}
+
+.dark-mode .project {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .skills-list li {
+    background: #ffcc00;
+    color: black;
+}
